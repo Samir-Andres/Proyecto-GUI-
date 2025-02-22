@@ -170,6 +170,12 @@ public class JfrCuentaBancaria extends JFrame {
 		separator_1_2.setBounds(26, 25, 391, 26);
 		contentPane.add(separator_1_2);
 		btnLimpiarCampos.addActionListener(e -> clearFields());
+
+		JLabel lblTipodecuenta = new JLabel("Tipo de cuenta");
+		lblTipodecuenta.setFont(new Font("Serif", Font.BOLD, 13));
+		lblTipodecuenta.setBounds(323, 50, 101, 14);
+		contentPane.add(lblTipodecuenta);
+		btnLimpiarCampos.addActionListener(e -> clearFields());
 	}
 
 	private void clearFields() {
